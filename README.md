@@ -44,7 +44,7 @@ func main(){
      exchange.Culture = "ru-RU"
      
      // Второй вариант инициализации структуры Indx
-     exchange = Indx{
+     exchange = indx.Indx{
      	Login: "john",
         Password: "qwerty",
         Wmid: "1234567890",
